@@ -17,13 +17,13 @@
 | ----------------- | -------- |
 | **Turma:**        | SI 7/8 Noturno |
 | **Data:**         | 19/08/2026 |
-| **Equipe:**       | Detetives dos Dados |
-| **Integrante 1:** | Cleder Rafael Narciso de Araujo |
-| **Integrante 2:** | Arthur Rodrigues de Souza Vieira |
-| **Integrante 3:** | Felipe Barbosa Vieira |
-| **Integrante 4:** | Calebe Mendes Bezerra |
-| **Integrante 5:** | Ramon Guilherme Marques do Nascimento |
-| **Integrante 6:** | Layse Steffany Pereira de Souza |
+| **Equipe:**       |  |
+| **Integrante 1:** | Rafael Batista Mota |
+| **Integrante 2:** |  |
+| **Integrante 3:** |  |
+| **Integrante 4:** |  |
+| **Integrante 5:** |  |
+| **Integrante 6:** |  |
 
 ---
 
