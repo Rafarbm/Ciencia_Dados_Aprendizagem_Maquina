@@ -92,12 +92,11 @@ O objetivo é aprender a **pensar como um cientista de dados**:
 
 | Nº | Dado necessário | Por que esse dado é importante? |
 | -: | --------------- | ------------------------------- |
-| 1 | Frequência às aulas (presenças/faltas por disciplina) | Queda de frequência é um dos primeiros sinais de desengajamento e possível evasão. |
-| 2 | Notas e histórico de reprovações | Baixo desempenho acadêmico está fortemente associado à desistência. |
-| 3 | Situação financeira (mensalidades em atraso, bolsas, financiamento) | Dificuldade financeira é uma das principais causas de abandono em instituições privadas. |
-| 4 | Dados socioeconômicos (idade, se trabalha, distância casa–faculdade, renda) | Ajudam a entender o contexto do aluno e a carga que ele enfrenta para permanecer no curso. |
-| 5 | Interações no ambiente virtual (acessos ao AVA, entregas de atividades) | Mostram o engajamento fora da sala de aula, mesmo quando o aluno ainda frequenta as aulas. |
-| 6 | Registros de trancamentos, transferências e evasões anteriores | Servem de base histórica para identificar padrões de quem desistiu no passado. |
+| 1 | Histórico de vendas | Mostra quais produtos venderam mais rápido e quais encalharam |
+| 2 | Data/Horário das compras | Ajuda a identificar picos de movimento e sazonalidade |
+| 3 | Valores (Custo e Preço) | Permite calcular a margem de lucro real de cada item |
+| 4 | Tamanhos e Cores | Indica se o problema de encalhe está concentrado em numerações específicas |
+| 5 | Tempo de permanência no estoque | Revela exatamente há quantos dias o produto está parado na loja |
 
 ---
 
@@ -113,11 +112,11 @@ O objetivo é aprender a **pensar como um cientista de dados**:
 
 ### Pergunta 3
 
-> Existe relação entre queda de frequência/acesso ao AVA e a desistência semanas depois?
+> Qual é o impacto financeiro mensal gerado pelo custo de oportunidade e pela armazenagem dos produtos parados?
 
 ### Pergunta 4
 
-> Quais perfis de alunos (trabalhador, bolsista, distante da faculdade etc.) têm maior risco de evadir?
+> Qual é o período exato do ano em que as vendas desaceleram a ponto de transformar mercadorias normais em estoque encalhado?
 
 ---
 
@@ -134,7 +133,7 @@ O objetivo é aprender a **pensar como um cientista de dados**:
 
 ### Explique um padrão que vocês gostariam de encontrar
 
-> Gostaríamos de encontrar um padrão de "sinais de alerta": por exemplo, alunos que reduzem a frequência abaixo de 75%, deixam de acessar o AVA por mais de duas semanas e atrasam uma mensalidade tendem a evadir no semestre seguinte. Identificando essa combinação de comportamentos, a instituição poderia agir antes da desistência.
+> Queremos buscar comportamentos recorrentes e correlações temporais, como a tendência de que roupas de cores específicas ou tecidos mais pesados lancem raízes no estoque sempre que chegam após o pico do inverno. Identificar esse padrão comportamental no consumo do cliente impede que o erro de compra se repita no ciclo seguinte
 
 ---
 
@@ -145,38 +144,38 @@ O objetivo é aprender a **pensar como um cientista de dados**:
 * [x] Análise temporal
 * [x] Visualização por gráficos
 * [x] Identificação de padrões
-* [x] Classificação
-* [x] Previsão
-* [x] Agrupamento
+* [ ] Classificação
+* [ ] Previsão
+* [ ] Agrupamento
 * [ ] Outra: __________________________
 
 ### Explique
 
-> Primeiro, uma análise descritiva e temporal para entender o cenário (quantos evadem, quando e de quais cursos), com gráficos comparando grupos (trabalhadores × não trabalhadores, bolsistas × pagantes). Depois, um agrupamento para identificar perfis de alunos e, futuramente, um modelo de classificação/previsão que estime o risco de evasão de cada aluno a partir do histórico.
+> A análise descritiva será usada para consolidar o volume de vendas e o tempo de estoque. Faremos uma comparação entre grupos de produtos e aplicaremos análise temporal para plotar gráficos de linha mostrando o fluxo de saída ao longo dos meses. Isso permitirá agrupar os itens em quadrantes de desempenho.
 
 ---
 
 # 11. Qual decisão poderia ser tomada?
 
-> Com base nos resultados, a instituição poderia criar um **programa de retenção direcionado**: gerar mensalmente uma lista de alunos em risco e acionar a ação certa para cada perfil — renegociação e bolsas para quem tem dificuldade financeira, monitoria e tutoria para quem tem baixo desempenho, e contato ativo da coordenação para quem apresenta queda de frequência e engajamento.
+> Com base nos insights gerados pela análise de dados, a diretoria comercial poderá cortar em até 40% os pedidos futuros de aquisição dos modelos e fornecedores com histórico de baixo giro, redirecionando esse orçamento para linhas de produtos validadas pelo público. Paralelamente, decidir por uma estratégia de liquidação segmentada acelerará a recuperação do capital investido.
 
 ---
 
 # 12. Qual seria o benefício?
 
-> Para os alunos: maior chance de concluir a graduação e receber apoio no momento certo. Para a instituição: redução da taxa de evasão, aumento de receita e melhora nos indicadores de qualidade. Para a sociedade: mais profissionais formados. Além disso, os recursos de retenção passam a ser aplicados de forma mais eficiente, no público que realmente precisa.
+> Os benefícios diretos incluem a recuperação expressiva de capital de giro, a liberação de espaço físico precioso no centro de distribuição e nas lojas para receber coleções altamente lucrativas, a redução drástica de custos com perdas e inventário obsoleto, e o aumento geral da margem de lucro operacional da empresa
 
 ---
 
 # 13. Os 5 Vs do Big Data
 
-| V              | Pergunta                                                   | Resposta da equipe |
-| -------------- | ---------------------------------------------------------- | ------------------ |
-| **Volume**     | Existe uma grande quantidade de dados?                     | Sim. São milhares de alunos, cada um com registros de frequência por aula, notas, acessos ao AVA e histórico financeiro acumulados por vários semestres. |
-| **Velocidade** | Os dados são gerados ou processados rapidamente?           | Sim. Presenças e acessos ao AVA são gerados diariamente; o risco de evasão pode mudar de uma semana para outra. |
-| **Variedade**  | Existem diferentes tipos ou formatos de dados?             | Sim. Dados estruturados (notas, faltas, pagamentos), logs de sistemas (AVA) e até textos (atendimentos, ouvidoria, respostas de questionários). |
-| **Veracidade** | Os dados podem apresentar erros ou problemas de qualidade? | Sim. Chamadas lançadas com atraso ou erro, cadastros desatualizados, dados socioeconômicos autodeclarados e registros incompletos. |
-| **Valor**      | Os dados podem gerar algum benefício ou apoiar decisões?   | Sim. Permitem prever o risco de evasão e direcionar ações de retenção, gerando valor para alunos e instituição. |
+| V              | Pergunta                                                   | Resposta da equipe                                               |
+| -------------- | ---------------------------------------------------------- | -----------------------------------------------------------------|
+| **Volume**     | Existe uma grande quantidade de dados?                     | Sim, milhares de registros de vendas e notas fiscais de estoque. |
+| **Velocidade** | Os dados são gerados ou processados rapidamente?           | Sim, a cada venda no caixa o sistema atualiza o estoque na hora. |
+| **Variedade**  | Existem diferentes tipos ou formatos de dados?             | Sim.                                                             |
+| **Veracidade** | Os dados podem apresentar erros ou problemas de qualidade? | Sim, produtos podem ser cadastrados com códigos errados ou dar baixa incorreta no sistema. |
+| **Valor**      | Os dados podem gerar algum benefício ou apoiar decisões?   | Sim, evitam compras erradas e prejuízos financeiros. |
 
 ### Qual dos 5 Vs é mais relevante para o problema?
 
@@ -184,7 +183,7 @@ O objetivo é aprender a **pensar como um cientista de dados**:
 
 ### Justifique
 
-> De nada adianta ter muitos dados acadêmicos e financeiros se eles não forem transformados em decisões. O grande diferencial aqui é converter registros que a instituição já possui em ações concretas de retenção — ou seja, extrair valor dos dados. A veracidade também é crítica, pois um alerta baseado em dados errados pode direcionar recursos para o aluno errado.
+> Embora o volume e a velocidade sejam importantes, o propósito central de analisar os dados de estoque não é apenas lidar com grandes massas de informação, mas sim extrair valor acionável — ou seja, transformar números frios em decisões estratégicas que protejam a margem de lucro da empresa e otimizem o negócio.
 
 ---
 
@@ -237,27 +236,27 @@ O objetivo é aprender a **pensar como um cientista de dados**:
 
 **Problema:**
 
-> Alta evasão de alunos em cursos superiores noturnos, detectada tarde demais.
+> Excesso de roupas encalhadas no estoque da loja gerando prejuízo
 
 **Dados:**
 
-> Frequência, notas, situação financeira, perfil socioeconômico, acessos ao AVA e histórico de evasões anteriores.
+> Histórico de vendas, tempo no estoque, preços, tamanhos e cores.
 
 **Informação:**
 
-> Quais fatores, momentos e perfis estão associados à desistência, e quais alunos apresentam sinais de risco.
+> Quais modelos, cores e tamanhos específicos ficam mais tempo parados e geram mais custo
 
 **Análise:**
 
-> Análise descritiva e temporal, comparação entre grupos, agrupamento de perfis e previsão do risco de evasão.
+> Cruzamento de dados de tempo de estoque com volume de vendas através de gráficos.
 
 **Decisão:**
 
-> Acionar ações de retenção personalizadas (financeira, pedagógica ou de acompanhamento) para os alunos em risco.
+> Diminuir compras futuras dos itens problemáticos e liquidar o estoque atual.
 
 **Benefício:**
 
-> Redução da evasão, mais alunos formados, melhoria de indicadores e uso eficiente dos recursos de retenção.
+> Redução de prejuízos e liberação de capital de giro para mercadorias populares.
 
 ---
 
@@ -265,27 +264,27 @@ O objetivo é aprender a **pensar como um cientista de dados**:
 
 ### 1. Nosso problema
 
-> A evasão de alunos em cursos superiores noturnos, que costuma ser percebida só depois que o aluno já desistiu.
+> O alto volume de roupas paradas no estoque de uma loja de comércio.
 
 ### 2. Precisamos destes dados
 
-> Frequência, notas, situação financeira, dados socioeconômicos, acessos ao AVA e histórico de evasões.
+> Histórico de vendas, tempo de permanência no estoque, preços e tamanhos dos produtos.
 
 ### 3. Queremos descobrir
 
-> Quais fatores e perfis estão associados à desistência e quais alunos apresentam sinais de risco antes de evadir.
+> Quais modelos e numerações específicas passam mais tempo encalhados e qual é o custo real desse capital parado para a empresa.
 
 ### 4. Pretendemos analisar
 
-> O cenário geral (descritiva e gráficos), a evolução no tempo, grupos de alunos semelhantes e, por fim, a previsão do risco individual.
+> Utilizar análises descritivas e temporais com gráficos de desempenho para agrupar e classificar os produtos problemáticos.
 
 ### 5. A decisão poderia ser
 
-> Criar um programa de retenção direcionado, com a ação certa (financeira, pedagógica ou de acompanhamento) para cada perfil de risco.
+> Cortar os pedidos futuros dos itens de baixo desempenho junto aos fornecedores e liquidar de forma inteligente o estoque atual.
 
 ### 6. O benefício esperado é
 
-> Menos evasão, mais alunos concluindo o curso, melhores indicadores para a instituição e recursos aplicados onde realmente fazem diferença.
+> Recuperar o dinheiro investido, abrir espaço para mercadorias que realmente vendem e aumentar a lucratividade do negócio.
 
 ---
 
@@ -312,7 +311,7 @@ O objetivo é aprender a **pensar como um cientista de dados**:
 
 **Resposta:**
 
-> Não. Dados em grande quantidade só geram boas decisões quando têm qualidade (veracidade), quando são analisados com as perguntas certas e quando os resultados chegam a quem decide, no momento certo. Uma instituição pode ter todo o histórico dos alunos e mesmo assim continuar perdendo estudantes se ninguém transformar esses registros em informação e ação. Além disso, dados ruins ou mal interpretados podem levar a decisões piores do que a intuição — por exemplo, classificar como "em risco" alunos com base em registros de frequência lançados errados. Ou seja: o valor não está no volume de dados, mas na capacidade de convertê-los em decisões corretas.
+> Não, ter um grande volume de dados não significa de forma alguma tomar boas decisões automaticamente. Acumular terabytes de informações sem uma governança adequada gera apenas acúmulo de ruído, o que especialistas chamam de "obesidade de dados". Para que uma decisão seja sólida, os dados precisam passar por um processo rigoroso de limpeza, validação, cruzamento e interpretação inteligente. Sem o pensamento crítico humano e o direcionamento analítico correto, uma grande quantidade de dados pode apenas nos fazer tomar decisões erradas com muito mais velocidade e confiança.
 
 ---
 
