@@ -19,11 +19,11 @@
 | **Data:**         | 19/08/2026 |
 | **Equipe:**       |  |
 | **Integrante 1:** | Rafael Batista Mota |
-| **Integrante 2:** |  |
-| **Integrante 3:** |  |
-| **Integrante 4:** |  |
-| **Integrante 5:** |  |
-| **Integrante 6:** |  |
+| **Integrante 2:** | Thiago Regis Vieira Rocha |
+| **Integrante 3:** | Gabriel Landim Donadel de Farias |
+| **Integrante 4:** | Eduardo Santos Morais |
+| **Integrante 5:** | -- |
+| **Integrante 6:** | -- |
 
 ---
 
@@ -43,11 +43,11 @@ O objetivo é aprender a **pensar como um cientista de dados**:
 
 Área escolhida:
 
-* [ ] Comércio
+* [x] Comércio
 * [ ] Banco
 * [ ] Saúde
 * [ ] Transporte
-* [x] Educação
+* [ ] Educação
 * [ ] Entretenimento
 * [ ] Indústria
 * [ ] Meio ambiente
@@ -58,19 +58,18 @@ O objetivo é aprender a **pensar como um cientista de dados**:
 
 **Descreva, em poucas linhas, o problema que sua equipe pretende analisar.**
 
-> A evasão de alunos em cursos superiores noturnos. Muitos estudantes que trabalham durante o dia acabam trancando ou abandonando o curso ao longo dos semestres, e a instituição geralmente só percebe o problema quando o aluno já saiu. Queremos entender quais fatores estão associados à desistência e como identificar alunos em risco antes que a evasão aconteça.
-
+> Uma loja de roupas de shopping está acumulando muita mercadoria no estoque que não vende, gerando prejuízo e ocupando espaço que poderia ser usado para produtos novos.
 ---
 
 ## 4. Quem possui esse problema?
 
 **Quem possui ou enfrenta esse problema?**
 
-> As instituições de ensino superior (públicas e privadas), especialmente as coordenações de curso e os setores de permanência estudantil, que perdem alunos, receita (no caso das privadas) e desempenho em indicadores de qualidade (como taxa de conclusão).
+> Os gestores e o setor de compras/estoque da loja de roupas.
 
 ### Quem é afetado pelo problema?
 
-> Os próprios alunos, que interrompem sua formação e perdem tempo e dinheiro investidos; suas famílias; os professores, que veem turmas esvaziarem; e a sociedade, que forma menos profissionais qualificados.
+> A empresa (que perde dinheiro com capital parado) e os clientes (que encontram menos variedade de novidades na arara).
 
 ---
 
@@ -78,7 +77,7 @@ O objetivo é aprender a **pensar como um cientista de dados**:
 
 **Qual é o impacto do problema?**
 
-> A evasão no ensino superior brasileiro é alta, principalmente em cursos noturnos, em que os alunos conciliam trabalho e estudo. Para o aluno, significa frustração e desperdício de investimento pessoal. Para a instituição, significa perda financeira, salas ociosas e queda em indicadores oficiais. Como a evasão costuma ser detectada tarde demais, agir com base em dados permite intervir enquanto ainda há chance de reter o aluno.
+> O impacto financeiro e operacional é severo. Manter mercadorias paradas gera custos de armazenagem, depreciação acelerada do produto (roupa sai de moda rápido), risco de perdas por avaria e, principalmente, custo de oportunidade, já que o dinheiro investido naqueles itens parados poderia estar alocado em coleções novas e de alta demanda. Investigar isso com dados permite estancar o sangramento financeiro e otimizar a saúde do caixa da empresa
 
 ---
 
@@ -86,8 +85,7 @@ O objetivo é aprender a **pensar como um cientista de dados**:
 
 **Qual decisão a organização precisa tomar?**
 
-> A instituição precisa decidir **em quais alunos e em quais ações de retenção investir**: oferecer apoio financeiro (bolsas, renegociação), apoio pedagógico (monitoria, reforço), flexibilização de horários/EAD ou acompanhamento psicossocial — e em que momento do semestre agir para cada perfil de aluno em risco.
-
+> A organização precisa decidir qual seria a media ideal de produtos (quantidades) deve ser encomendado para as próximas coleções, além de definir estratégias dinâmicas de preço para escoar o estoque atual parado de forma a recuperar o máximo de valor possível sem prejudicar a marca
 ---
 
 # 7. Identificação dos dados
@@ -107,11 +105,11 @@ O objetivo é aprender a **pensar como um cientista de dados**:
 
 ### Pergunta 1
 
-> Quais fatores mais se repetem entre os alunos que evadiram nos últimos anos?
+> Quais categorias de vestuário e faixas de preço apresentam a maior taxa de encalhe após 90 dias da chegada a loja?
 
 ### Pergunta 2
 
-> Em qual semestre/período do curso a evasão é mais frequente?
+> Existe algum desbalanceamento na grade de tamanhos (por exemplo, compramos muito o tamanho GG e falta o M)?
 
 ### Pergunta 3
 
