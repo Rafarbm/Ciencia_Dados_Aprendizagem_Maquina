@@ -270,25 +270,5 @@ Benefício:
 
 ---
 
-## Entrega
-
-### Produto final
-
-**Mapa do Problema de Ciência de Dados**
-
-```text
-Problema: evasão de alunos no ensino superior noturno
-   ↓
-Dados necessários: frequência, notas, financeiro, AVA, perfil socioeconômico
-   ↓
-Informações desejadas: fatores, perfis e sinais de risco de evasão
-   ↓
-Análise: descritiva, temporal, agrupamento e previsão de risco
-   ↓
-Decisão: programa de retenção direcionado por perfil
-   ↓
-Benefício esperado: menos evasão, mais formados, recursos bem aplicados
-```
-
 **Formato:** Markdown.
 **Apresentação:** 2 minutos por equipe.
