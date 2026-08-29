@@ -189,72 +189,27 @@ O objetivo é aprender a **pensar como um cientista de dados**:
 
 # 14. Mapa do Problema de Ciência de Dados
 
-```text
-┌─────────────────────┐
-│       PROBLEMA      │
-│  Alta evasão de     │
-│  alunos no noturno  │
-└──────────┬──────────┘
-           ↓
-┌─────────────────────┐
-│        DADOS        │
-│ Frequência, notas,  │
-│ financeiro, AVA,    │
-│ perfil socioecon.   │
-└──────────┬──────────┘
-           ↓
-┌─────────────────────┐
-│     INFORMAÇÕES     │
-│ Fatores e perfis    │
-│ associados à        │
-│ desistência         │
-└──────────┬──────────┘
-           ↓
-┌─────────────────────┐
-│       ANÁLISE       │
-│ Descritiva, temporal│
-│ agrupamento e       │
-│ previsão de risco   │
-└──────────┬──────────┘
-           ↓
-┌─────────────────────┐
-│       DECISÃO       │
-│ Programa de retenção│
-│ direcionado por     │
-│ perfil de risco     │
-└──────────┬──────────┘
-           ↓
-┌─────────────────────┐
-│      BENEFÍCIO      │
-│ Menos evasão, mais  │
-│ formados e recursos │
-│ bem aplicados       │
-└─────────────────────┘
-```
-
-### Resuma cada etapa
-
-**Problema:**
+Problema:
 
 > Excesso de roupas encalhadas no estoque da loja gerando prejuízo
 
-**Dados:**
+Dados:
 
 > Histórico de vendas, tempo no estoque, preços, tamanhos e cores.
 
-**Informação:**
+Informação:
 
 > Quais modelos, cores e tamanhos específicos ficam mais tempo parados e geram mais custo
 
-**Análise:**
+Análise:
 
 > Cruzamento de dados de tempo de estoque com volume de vendas através de gráficos.
 
-**Decisão:**
+Decisão:
 
 > Diminuir compras futuras dos itens problemáticos e liquidar o estoque atual.
 
-**Benefício:**
+Benefício:
 
 > Redução de prejuízos e liberação de capital de giro para mercadorias populares.
 
