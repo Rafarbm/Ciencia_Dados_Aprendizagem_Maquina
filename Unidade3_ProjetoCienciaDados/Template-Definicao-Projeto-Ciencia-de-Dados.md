@@ -10,7 +10,7 @@
 
 | Campo | Preenchimento |
 |---|---|
-| Título provisório do projeto | |
+| Título provisório do projeto | Análise dos preços de produtos de supermercado|
 | Curso / disciplina | |
 | Turma | |
 | Equipe | |
