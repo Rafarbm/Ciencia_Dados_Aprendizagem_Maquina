@@ -11,19 +11,19 @@
 | Campo | Preenchimento |
 |---|---|
 | Título provisório do projeto | Análise dos preços de produtos de supermercado|
-| Curso / disciplina | |
+| Curso / disciplina | Ciência de Dados|
 | Turma | |
 | Equipe | |
-| Integrantes e funções iniciais | |
+| Integrantes e funções iniciais | Rafael Batista Mota|
 | Professor(a) | |
-| Data de elaboração | |
-| Versão do documento | |
+| Data de elaboração | 16/09/2026|
+| Versão do documento | 1.0|
 
 ## 2. Visão geral
 
 ### 2.1 Resumo do projeto
 
-Em até 100 palavras, apresente o problema, o público-alvo, a proposta de análise e o resultado esperado.
+O projeto pretende analisar os preços de produtos de supermercado, identificando variações de valores entre diferentes produtos, estabelecimentos e períodos. O público-alvo são consumidores que querer controlar seus gastos e encontrar opções mais econômicas para suas compras. Serão utilizados dados de preços de produtos, categorias, estabelecimentos e períodos de coleta. A análise utilizará técnicas de Ciência de Dados para identificar padrões, variações e diferenças de preços. Como resultado, espera-se apresentar informações que auxiliem os consumidores na comparação de preços e no planejamento das compras.
 
 **Preenchimento:**
 
@@ -33,7 +33,7 @@ ________________________________________________________________________________
 
 ### 2.2 Declaração do projeto em uma frase
 
-> Nosso projeto utilizará **[dados ou fonte]** para compreender/prever **[fenômeno]**, apoiando **[público ou organização]** na decisão de **[decisão ou ação]**.
+> Nosso projeto utilizará dados de preços de produtos de supermercado para compreender as variações de preços entre produtos, estabelecimentos e períodos, apoiando consumidores na decisão de onde e quando realizar suas compras.
 
 **Versão da equipe:**
 
@@ -43,12 +43,19 @@ ________________________________________________________________________________
 
 ### 3.1 Contexto
 
-Descreva a situação atual, o ambiente em que o problema ocorre e as evidências iniciais que demonstram sua relevância.
+Os supermercados comercializam diversos produtos de consumo diário, cujos preços podem variar de acordo com o estabelecimento, produto, categoria e período analisado.
 
-- Onde o problema ocorre?
-- Quem é afetado?
-- Quais sinais, dados ou relatos indicam sua existência?
-- Por que é importante investigá-lo agora?
+Onde o problema ocorre?
+Em supermercados e estabelecimentos que comercializam produtos de consumo diário.
+
+Quem é afetado?
+Principalmente consumidores que precisam controlar seus gastos e comparar preços antes de realizar suas compras.
+
+Quais sinais, dados ou relatos indicam sua existência?
+A existência de diferentes preços para produtos semelhantes entre estabelecimentos e períodos indica a necessidade de comparação e análise dessas variações.
+
+Por que é importante investigá-lo agora?
+Porque os gastos com alimentação e produtos básicos fazem parte do orçamento cotidiano das famílias, tornando importante compreender como os preços variam e quais produtos apresentam maiores diferenças.
 
 **Preenchimento:**
 
@@ -60,7 +67,7 @@ ________________________________________________________________________________
 
 Formule o problema de maneira específica, sem antecipar uma solução.
 
-> **Modelo:** [Público/organização] enfrenta [problema observável] no contexto de [situação], produzindo [consequência ou impacto].
+Consumidores enfrentam dificuldade para identificar diferenças e padrões nos preços de produtos de supermercado no contexto de compras cotidianas, produzindo maior dificuldade para comparar opções e planejar seus gastos.
 
 **Problema definido:**
 
