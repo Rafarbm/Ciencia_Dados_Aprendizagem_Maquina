@@ -10,12 +10,13 @@
 
 | Campo | Preenchimento |
 |---|---|
-| Título provisório do projeto | Análise dos preços de produtos de supermercado|
-| Curso / disciplina | Ciência de Dados|
+| Título provisório do projeto | Análise do comportamento dos usuários e desempenho de restaurantes em uma plataforma de cupons, descontos e eventos|
+| Curso / disciplina | |
 | Turma | |
 | Equipe | |
-| Integrantes e funções iniciais | Rafael Batista Mota|
-| Professor(a) | |
+| Integrantes e funções iniciais | Rafael Batista Mota |
+| Integrantes e funções iniciais | Gabriel Landim |
+| Professor(a) | Gabriel|
 | Data de elaboração | 16/09/2026|
 | Versão do documento | 1.0|
 
@@ -23,30 +24,29 @@
 
 ### 2.1 Resumo do projeto
 
-O projeto pretende analisar os preços de produtos de supermercado, identificando variações de valores entre diferentes produtos, estabelecimentos e períodos. O público-alvo são consumidores que querer controlar seus gastos e encontrar opções mais econômicas para suas compras. Serão utilizados dados de preços de produtos, categorias, estabelecimentos e períodos de coleta. A análise utilizará técnicas de Ciência de Dados para identificar padrões, variações e diferenças de preços. Como resultado, espera-se apresentar informações que auxiliem os consumidores na comparação de preços e no planejamento das compras.
+O projeto tem como objetivo analisar dados de uma plataforma que reúne restaurantes e oferece aos usuários cupons, descontos e eventos. A análise buscará compreender o comportamento dos usuários e o desempenho das ofertas disponibilizadas pelos restaurantes parceiros. Serão analisados dados como acessos, visualizações, utilização de cupons, categorias de restaurantes, descontos e eventos. Os resultados poderão auxiliar restaurantes e administradores da plataforma na identificação de ofertas de maior interesse e no planejamento de novas campanhas e eventos.
 
 ### 2.2 Declaração do projeto em uma frase
 
-> O projeto utilizará dados de preços de produtos de supermercado para compreender as variações de preços entre produtos, estabelecimentos e períodos, apoiando consumidores na decisão de onde e quando realizar suas compras.
+Nosso projeto utilizará dados de utilização da plataforma para compreender o comportamento dos usuários e o desempenho de cupons, descontos e eventos, apoiando restaurantes parceiros e administradores na decisão sobre quais ofertas e campanhas disponibilizar.
 
 ## 3. Contexto e definição do problema
 
 ### 3.1 Contexto
 
-Os supermercados comercializam diversos produtos de consumo diário, cujos preços podem variar de acordo com o estabelecimento, produto, categoria e período analisado.
+A plataforma proposta pelo TCC tem como finalidade conectar usuários a restaurantes parceiros por meio de cupons, descontos e eventos. Para os restaurantes, é importante conhecer quais ofertas despertam maior interesse dos usuários. Para os usuários, a plataforma deve facilitar a descoberta de oportunidades de economia e experiências gastronômicas.
 
 Onde o problema ocorre?
-Em supermercados e estabelecimentos que comercializam produtos de consumo diário.
+No ambiente digital da plataforma de cupons, descontos e eventos para restaurantes.
 
 Quem é afetado?
-Principalmente consumidores que precisam controlar seus gastos e comparar preços antes de realizar suas compras.
+Usuários da plataforma, restaurantes parceiros e administradores responsáveis pelo gerenciamento da plataforma.
 
 Quais sinais, dados ou relatos indicam sua existência?
-A existência de diferentes preços para produtos semelhantes entre estabelecimentos e períodos indica a necessidade de comparação e análise dessas variações.
+Dados como visualizações de restaurantes, acessos às ofertas, utilização de cupons, quantidade de participantes em eventos e interações com as ofertas podem indicar quais conteúdos despertam maior interesse.
 
 Por que é importante investigá-lo agora?
-Porque os gastos com alimentação e produtos básicos fazem parte do orçamento cotidiano das famílias, tornando importante compreender como os preços variam e quais produtos apresentam maiores diferenças.
-
+Porque a análise desses dados pode ajudar a plataforma e os restaurantes parceiros a compreender melhor o comportamento dos usuários e utilizar essas informações para melhorar as ofertas disponibilizadas.
 
 ### 3.2 Problema central
 
