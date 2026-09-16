@@ -25,19 +25,9 @@
 
 O projeto pretende analisar os preços de produtos de supermercado, identificando variações de valores entre diferentes produtos, estabelecimentos e períodos. O público-alvo são consumidores que querer controlar seus gastos e encontrar opções mais econômicas para suas compras. Serão utilizados dados de preços de produtos, categorias, estabelecimentos e períodos de coleta. A análise utilizará técnicas de Ciência de Dados para identificar padrões, variações e diferenças de preços. Como resultado, espera-se apresentar informações que auxiliem os consumidores na comparação de preços e no planejamento das compras.
 
-**Preenchimento:**
-
-________________________________________________________________________________
-
-________________________________________________________________________________
-
 ### 2.2 Declaração do projeto em uma frase
 
-> Nosso projeto utilizará dados de preços de produtos de supermercado para compreender as variações de preços entre produtos, estabelecimentos e períodos, apoiando consumidores na decisão de onde e quando realizar suas compras.
-
-**Versão da equipe:**
-
-________________________________________________________________________________
+> O projeto utilizará dados de preços de produtos de supermercado para compreender as variações de preços entre produtos, estabelecimentos e períodos, apoiando consumidores na decisão de onde e quando realizar suas compras.
 
 ## 3. Contexto e definição do problema
 
@@ -57,28 +47,17 @@ A existência de diferentes preços para produtos semelhantes entre estabelecime
 Por que é importante investigá-lo agora?
 Porque os gastos com alimentação e produtos básicos fazem parte do orçamento cotidiano das famílias, tornando importante compreender como os preços variam e quais produtos apresentam maiores diferenças.
 
-**Preenchimento:**
-
-________________________________________________________________________________
-
-________________________________________________________________________________
 
 ### 3.2 Problema central
 
-Formule o problema de maneira específica, sem antecipar uma solução.
-
 Consumidores enfrentam dificuldade para identificar diferenças e padrões nos preços de produtos de supermercado no contexto de compras cotidianas, produzindo maior dificuldade para comparar opções e planejar seus gastos.
-
-**Problema definido:**
-
-________________________________________________________________________________
 
 ### 3.3 Evidências iniciais
 
 | Evidência | Fonte | O que ela indica? | Confiabilidade / limitação |
 |---|---|---|---|
-| 1. | | | |
-| 2. | | | |
+| 1. | Diferença de preços entre estabelecimentos| Dados públicos de preços / pesquisa de preçosDados públicos de preços / pesquisa de preços| Indica que um mesmo produto pode apresentar valores diferentes dependendo do estabelecimento.| Depende da data, região e quantidade de estabelecimentos analisados.
+| 2. | Variação de preços ao longo do tempo| Histórico dos dados coletados| Permite observar alterações nos preços dos produtos.| Período de análise pode ser limitado.
 | 3. | | | |
 
 ## 4. Público-alvo e partes interessadas
