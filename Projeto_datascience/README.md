@@ -1,6 +1,5 @@
-metodologia:https://www.ibm.com/docs/pt-br/SS3RA7_18.5.0/nl/pt/BR/pdf/ModelerCRISPDM.pdf
+Metodologia: https://www.ibm.com/docs/pt-br/SS3RA7_18.5.0/nl/pt/BR/pdf/ModelerCRISPDM.pdf
 
-1. definir qual negócio (ex: pizza hut)
-pergunta: investir numa franquia da marca é uma oportunidade de negócio?
+Definição do Negócio 28/10: PIZZA HUT Pergunta: Investir em uma franquia da Pizza Hut no UDF é uma oportunidade de negócio? Referência
 
-## referencias: (colocar no padrão ABNT)
+PRASHANTRIX. PizzaHut-Sales-Analysis. GitHub, [s. l.], [s. d.]. Disponível em: https://github.com/prashantrix/PizzaHut-Sales-Analysis/tree/main. Acesso em: 28 out. 2026.
